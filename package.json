@@ -1,0 +1,20 @@
+{
+  "name": "SortCompanies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SaritaNairCode/SortCompanies.git",
+  "author": "Sarita Nair <Sarita.Nair@target.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html --port 1111",
+    "build": "parcel build index.html",
+    "cypress": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^8.4.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
